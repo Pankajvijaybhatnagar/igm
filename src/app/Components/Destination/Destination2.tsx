@@ -7,12 +7,19 @@ import Slider from 'react-slick';
 const Destination2 = () => {
 
 
-    const destinationContent = [
-        {img:'/assets/img/destination/new/01.jpg', location:'Brahma Sarovar', title:'Sacred Water Tank'},          
-        {img:'/assets/img/destination/new/02.jpg', location:'Jyotisar', title:'Birthplace of Gita'},          
-        {img:'/assets/img/destination/new/03.jpg', location:'Kurukshetra Panorama', title:'Museum & Science Centre'},          
-        {img:'/assets/img/destination/new/04.jpg', location:'Sannihit Sarovar', title:'Holy Pilgrimage Site'},          
-      ]; 
+const destinationContent = [
+  {img:'/assets/img/destination/new/gita gyan.png', location:'Gita Gyan Sansthanam', title:'Museum & Gita Research Centre'},          
+    {img:'/assets/img/destination/new/braham sarovar.png', location:'Brahma Sarovar', title:'Sacred Water Tank'},          
+    {img:'/assets/img/destination/new/jyotisar.png', location:'Jyotisar', title:'Birthplace of Gita'},          
+    {img:'/assets/img/destination/new/sanhit.png', location:'Sannihit Sarovar', title:'Holy Pilgrimage Site'},     
+    {img:'/assets/img/destination/new/bhadrakali.png', location:'Shri Devikoop Bhadrakali Mandir Kurukshetra', title:'One of 52 Shakti Peeths'}, 
+    
+    // --- New spiritual places added ---
+    
+    {img:'/assets/img/destination/new/sthaneshwar.png', location:'Sthaneshwar Mahadev Temple', title:'Ancient Shiva Temple'},
+    {img:'/assets/img/destination/new/birla mandir.png', location:'Birla Mandir', title:'Dedicated to Lord Krishna'},
+    {img:'/assets/img/destination/new/panorma.png', location:'Penorma Kurukshetra', title:'Museum & Science Centre'},
+];
 
 
       const settings = {
@@ -72,10 +79,12 @@ const Destination2 = () => {
                                   <Image src={item.img} alt="img" width={424} height={505}   />
                                     <div className="content">
                                         <div className="title-text">
-                                            <h3>{item.location}</h3>
+                                            <h3 style={{
+                                              color:'#ffb800'
+                                            }}>{item.location}</h3>
                                             <p>{item.title}</p>
                                         </div>
-                                        <div className="icon"><i className="bi bi-arrow-right"></i></div>
+                                        {/* <div className="icon"><i className="bi bi-arrow-right"></i></div> */}
                                     </div>
                                 </div>
                             </div>

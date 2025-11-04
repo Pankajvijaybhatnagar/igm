@@ -10,6 +10,8 @@ import Cta3 from '../Components/Cta/Cta3';
 import Testimonial2 from '../Components/Testimonial/Testimonial2';
 import Blog2 from '../Components/Blog/Blog2';
 import Instagram1 from '../Components/Instagram/Instagram1';
+import Activities from '../Components/Activities/Activities';
+import GitaJayanti2024 from '../Components/gitaJayanti/GitaJayanti2024';
 
 const page = () => {
     return (
@@ -18,8 +20,9 @@ const page = () => {
             <About2></About2>
             <Counter1></Counter1>
             <Destination2></Destination2>
-            <Choose2></Choose2>
+            {/* <Choose2></Choose2> */}
             <Story1></Story1>
+            <GitaJayanti2024 />
             <FeaturedTour1></FeaturedTour1>
             {/* <Cta3></Cta3> */}
             <Testimonial2></Testimonial2>

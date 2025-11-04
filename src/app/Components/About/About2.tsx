@@ -11,24 +11,24 @@ const About2 = () => {
             <div className="col-lg-6">
               <div className="about-image">
                 <Image
-                  src="/assets/img/about/03.jpg"
+                  src="/assets/img/about/front banner2 copy.jpg"
                   className="img-custom-anim-left"
                   alt="img"
                   width={330}
                   height={512}
                 />
                 <div className="shape-image float-bob-y">
-                  <Image
+                  {/* <Image
                     src="/assets/img/about/04.png"
                     alt="img"
                     width={196}
                     height={109}
-                  />
+                  /> */}
                 </div>
 
                 <div className="about-image-2">
                   <Image
-                    src="/assets/img/about/05.jpg"
+                    src="/assets/img/about/front banner copy.jpg"
                     className="img-custom-anim-top"
                     alt="img"
                     width={284}

@@ -2,19 +2,21 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const Activities = () => {
+const Activities = (
+    {teamContent=[]}
+) => {
 
-    const teamContent = [
-        {img:'/assets/img/activities/01.jpg', name:'(5 Trips)', content:'California'},
-        {img:'/assets/img/activities/02.jpg', name:'(2 Trips)', content:'Thailand'},
-        {img:'/assets/img/activities/03.jpg', name:'(3 Trips)', content:'India'},
-        {img:'/assets/img/activities/04.jpg', name:'(6 Trips)', content:'Sugarland'},
-        {img:'/assets/img/activities/05.jpg', name:'(7 Trips)', content:'California'},
-        {img:'/assets/img/activities/06.jpg', name:'(8 Trips)', content:'Sugarland'},
-        {img:'/assets/img/activities/07.jpg', name:'(6 Trips)', content:'India'},
-        {img:'/assets/img/activities/08.jpg', name:'(3 Trips)', content:'California'},
-        {img:'/assets/img/activities/09.jpg', name:'(5 Trips)', content:'Thailand'},
-      ];
+    // const teamContent = [
+    //     {img:'/assets/img/activities/01.jpg', name:'(5 Trips)', content:'California'},
+    //     {img:'/assets/img/activities/02.jpg', name:'(2 Trips)', content:'Thailand'},
+    //     {img:'/assets/img/activities/03.jpg', name:'(3 Trips)', content:'India'},
+    //     {img:'/assets/img/activities/04.jpg', name:'(6 Trips)', content:'Sugarland'},
+    //     {img:'/assets/img/activities/05.jpg', name:'(7 Trips)', content:'California'},
+    //     {img:'/assets/img/activities/06.jpg', name:'(8 Trips)', content:'Sugarland'},
+    //     {img:'/assets/img/activities/07.jpg', name:'(6 Trips)', content:'India'},
+    //     {img:'/assets/img/activities/08.jpg', name:'(3 Trips)', content:'California'},
+    //     {img:'/assets/img/activities/09.jpg', name:'(5 Trips)', content:'Thailand'},
+    //   ];
 
     return (
         <section className="activities-section fix section-padding">
@@ -29,11 +31,11 @@ const Activities = () => {
                                 {item.name}
                                 </div>
                             </div>
-                            <div className="activities-content">
+                            {/* <div className="activities-content">
                                 <h4>
                                     <Link href="/activities/activities-details">{item.content}</Link>
                                 </h4>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     ))}
