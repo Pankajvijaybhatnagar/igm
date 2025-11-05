@@ -64,7 +64,7 @@ const destinationContent = [
                         Sacred Destinations
                     </span>
                     <h2 className="wow fadeInUp wow" data-wow-delay=".5s">
-                        Explore Holy Sites of <br/> Kurukshetra
+                        Explore GIEO Gita
                     </h2>
                 </div>
             </div>
