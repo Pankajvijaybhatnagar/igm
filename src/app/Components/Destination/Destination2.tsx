@@ -9,16 +9,16 @@ const Destination2 = () => {
 
 const destinationContent = [
   {img:'/assets/img/destination/new/gita gyan.png', location:'Gita Gyan Sansthanam', title:'Museum & Gita Research Centre'},          
-    {img:'/assets/img/destination/new/braham sarovar.png', location:'Brahma Sarovar', title:'Sacred Water Tank'},          
-    {img:'/assets/img/destination/new/jyotisar.png', location:'Jyotisar', title:'Birthplace of Gita'},          
-    {img:'/assets/img/destination/new/sanhit.png', location:'Sannihit Sarovar', title:'Holy Pilgrimage Site'},     
-    {img:'/assets/img/destination/new/bhadrakali.png', location:'Shri Devikoop Bhadrakali Mandir Kurukshetra', title:'One of 52 Shakti Peeths'}, 
+    {img:'/assets/img/destination/new/braham sarovar.png', location:'GIEO Gita Museum', title:'Clips from Mahabharata'},          
+    {img:'/assets/img/destination/new/jyotisar.png', location:'GIEO Nursery', title:'Nature Conservation with GIEO Gita'},          
+    {img:'/assets/img/destination/new/sanhit.png', location:'GIEO Prasadam', title:'Food for Body & Soul'},     
+    // {img:'/assets/img/destination/new/bhadrakali.png', location:'Shri Devikoop Bhadrakali Mandir Kurukshetra', title:'One of 52 Shakti Peeths'}, 
     
     // --- New spiritual places added ---
     
-    {img:'/assets/img/destination/new/sthaneshwar.png', location:'Sthaneshwar Mahadev Temple', title:'Ancient Shiva Temple'},
-    {img:'/assets/img/destination/new/birla mandir.png', location:'Birla Mandir', title:'Dedicated to Lord Krishna'},
-    {img:'/assets/img/destination/new/panorma.png', location:'Penorma Kurukshetra', title:'Museum & Science Centre'},
+    {img:'/assets/img/destination/new/sthaneshwar.png', location:'GIEO Library', title:'Vedic & Spiritual Books'},
+    {img:'/assets/img/destination/new/birla mandir.png', location:'GIEO Auditorium', title:'Cultural Events & Seminars'},
+    {img:'/assets/img/destination/new/panorma.png', location:'Maharaj ji Niwas', title:'Stay Close to Divinity'},
 ];
 
 
