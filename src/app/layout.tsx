@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import "slick-carousel/slick/slick.css";
 import "./assets/main.css";
+import "./global.css"
 
 const manrope = Manrope({
   subsets: ['latin'],

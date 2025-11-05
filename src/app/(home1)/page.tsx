@@ -12,11 +12,13 @@ import Blog2 from '../Components/Blog/Blog2';
 import Instagram1 from '../Components/Instagram/Instagram1';
 import Activities from '../Components/Activities/Activities';
 import GitaJayanti2024 from '../Components/gitaJayanti/GitaJayanti2024';
+import CountDownlTimer from '../Components/CountDownTimer'
 
 const page = () => {
     return (
         <div>
             <HeroBanner2></HeroBanner2>
+            {/* <CountDownlTimer /> */}
             <About2></About2>
             <Counter1></Counter1>
             <Destination2></Destination2>

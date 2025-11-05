@@ -1,6 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react';
 import loadBackgroudImages from '../Common/loadBackgroudImages';
+import CountDownTimer from '../CountDownTimer';
 
 
 
@@ -330,6 +331,7 @@ const HeroBanner2 = () => {
                             </div>
                         </div>
                     </div>
+                        <CountDownTimer/>
                 </div>
             </div>
         </section>
