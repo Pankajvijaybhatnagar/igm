@@ -257,62 +257,7 @@ const HeroBanner2 = () => {
                     <div className="row align-items-center" style={{ minHeight: '0vh' }}>
                         {/* Counter Section - Direct on hero background */}
                         <div className="col-lg-6 d-flex align-items-center justify-content-center order-lg-1 order-2" style={{ padding: 'clamp(2rem, 5vw, 4rem) clamp(1rem, 3vw, 2rem)' }}>
-                            <div style={{ width: '100%', maxWidth: '600px' }}>
-                                <div 
-                                    id="counterDisplay" 
-                                    style={{
-                                        display: 'flex',
-                                        justifyContent: 'center',
-                                        alignItems: 'center',
-                                      
-                                     
-                                        marginBottom: 'clamp(2rem, 4vw, 3rem)',
-                                        minHeight: 'clamp(80px, 15vw, 120px)',
-                                        //  border: '2px solid rgba(255, 255, 255, 0.2)',
-                                    
-                                    }}
-                                ></div>
-                                
-                                {/* Progress Bar */}
-                               
-                                
-                                {/* Time Info */}
-                                {/* <div style={{
-                                    display: 'flex',
-                                    justifyContent: 'space-between',
-                                    alignItems: 'center',
-                                    flexWrap: 'wrap',
-                                    gap: '1rem',
-                                   
-                                }}>
-                                    
-                                    <div id="timeInfo" style={{
-                                        fontSize: 'clamp(0.75rem, 2vw, 1rem)',
-                                        color: '#fff',
-                                        fontWeight: 700,
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        gap: '0.5rem',
-                                        padding: 'clamp(0.5rem, 1.5vw, 0.75rem) clamp(1rem, 2vw, 1.5rem)',
-                                        background: 'rgba(0, 0, 0, 0.5)',
-                                        borderRadius: '25px',
-                                        border: '2px solid rgba(50, 184, 198, 0.6)',
-                                        backdropFilter: 'blur(10px)',
-                                        boxShadow: '0 4px 15px rgba(0, 0, 0, 0.3)'
-                                    }}>
-                                        <span style={{
-                                            width: 'clamp(6px, 1.5vw, 10px)',
-                                            height: 'clamp(6px, 1.5vw, 10px)',
-                                            backgroundColor: 'rgba(50, 184, 198, 1)',
-                                            borderRadius: '50%',
-                                            display: 'inline-block',
-                                            animation: 'pulse-glow 1.5s ease-in-out infinite',
-                                            boxShadow: '0 0 10px rgba(50, 184, 198, 0.8)'
-                                        }}></span>
-                                        Live
-                                    </div>
-                                </div> */}
-                            </div>
+                            
                         </div>
 
 

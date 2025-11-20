@@ -46,28 +46,14 @@ export default function Header1({ variant } : any ) {
                 <Image src="/assets/img/logo/logo-7.png" alt="img" width={110} height={55}   />
               </Link>
               </div>
-              {/* <div className="cs_main_header_center">
-                <div className="cs_nav cs_primary_font fw-medium">
-                  <span
-                    className={
-                      mobileToggle
-                        ? 'cs-munu_toggle cs_teggle_active'
-                        : 'cs-munu_toggle'
-                    }
-                    onClick={() => setMobileToggle(!mobileToggle)}
-                  >
-                    <span></span>
-                  </span>
-                  <Nav setMobileToggle={setMobileToggle} />
-                </div>
-            </div> */}
+             
             <div className="cs_main_header_right">
               <div className="header-btn d-flex align-items-center">
-                <div className="main-button header-btn-1">
+                {/* <div className="main-button header-btn-1">
                 <a onClick={() => setSearchToggle(!searchToggle)} className="search-trigger search-icon"><i className="bi bi-search"></i></a>
                 <Link href="/contact" className='theme-btn'>
                 <span> Request A Quote <i className="bi bi-arrow-right"></i></span></Link>
-                  </div>
+                  </div> */}
 
               </div>
             </div>
