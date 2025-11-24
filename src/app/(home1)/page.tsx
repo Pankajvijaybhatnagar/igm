@@ -24,10 +24,10 @@ const page = () => {
             <Destination2></Destination2>
             {/* <Choose2></Choose2> */}
             <Story1></Story1>
-            <GitaJayanti2024 />
+            {/* <GitaJayanti2024 /> */}
             {/* <FeaturedTour1></FeaturedTour1> */}
             {/* <Cta3></Cta3> */}
-            <Testimonial2></Testimonial2>
+            {/* <Testimonial2></Testimonial2> */}
             {/* <Blog2></Blog2> */}
             {/* <Instagram1></Instagram1> */}
         </div>
